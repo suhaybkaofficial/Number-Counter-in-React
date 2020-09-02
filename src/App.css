@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(120deg,#8fd1d6,#fff799);
+    
+}
+.counterContent{
+    max-width: 100vh;
+    margin: auto;
+}
+.counterBody{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background:transparent;
+    min-height: 40vh;
+    min-width: 30vh;
+    border:1px solid #000;
+    border-radius: 10px;
+}
+.counterNumber{
+    font-size: 7rem !important;
+}
+.counterButtons{
+    outline:none !Important;
+}
+.btn-primary{
+    background:transparent !important;
+    color:#000;
+    border:1px solid #000;
+}
+.btn-primary:hover{
+    background:white !important;
+    border:1px solid #000;
+    color:#000 !important;
+}
+.btn-success{
+    background:transparent !important;
+    color:#000;
+    border:1px solid #000;
+}
+.btn-primary:hover{
+    background:white !important;
+    border:1px solid #000;
+    color:#000 !important;
+}
+.copyright a{
+    color:rgb(4, 43, 117);
+    text-decoration: none;
+}
